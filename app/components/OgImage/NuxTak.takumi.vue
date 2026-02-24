@@ -7,7 +7,7 @@ const props = defineProps({
 
 <template>
   <div class="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 to-blue-900 text-white p-12">
-    <h1 class="text-6xl font-bold mb-4 shadow-lg" style="font-family: 'Poppins', sans-serif;">
+    <h1 class="text-6xl text-primary font-bold mb-4 shadow-lg" style="font-family: 'Poppins', sans-serif;">
       {{ title }}
     </h1>
     
