@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOgImage('NuxTak', {
-  title: 'Welcome Nuxt 4 - चरन् वै मधु विन्दति',
+  title: 'चरन् वै मधु विन्दति',
   description: 'चरन् वै मधु विन्दति. Build your next Vue.js application with Nuxt 4.',
 })
 </script>
