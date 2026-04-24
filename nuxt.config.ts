@@ -12,10 +12,12 @@ export default defineNuxtConfig({
     families: [
       {name: "Poppins", weights: [400, 700], global: true},
       {name: "Oswald", weights: [400, 700], global: true},
+      // {name: "Noto Sans Devanagari", weight: 400, global: true},
       {name: "Noto Sans Devanagari", weights: [400, 700], global: true},
     ]
   },
   ogImage: {
-    debug: true
+    debug: true,
+    fontSubsets: [ 'devanagari']
   }
 })
